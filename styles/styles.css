@@ -29,6 +29,7 @@ nav {
 .nav-links {
     display: flex;
     gap: 2rem;
+    position: relative;
 }
 
 .nav-links ul {
@@ -41,6 +42,14 @@ nav {
 
 .nav-links ul a {
     color: black;
+}
+
+.icon {
+    display: block;
+    position: absolute;
+    right: -39px;
+    text-align: center;
+    top: 8px;
 }
 
 .button {
@@ -199,9 +208,7 @@ hr {
 
 
 /* Media Query */
-
-
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
 
     .cancelbtn,
     .signupbtn {

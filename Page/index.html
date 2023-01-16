@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Credit cards</title>
 </head>
 
@@ -17,14 +18,17 @@
 
             <div class="nav-links">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Cards</a></li>
-                    <li><a href="">FAQs</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about us">About Us</a></li>
+                    <li><a href="#cards">Cards</a></li>
+                    <li><a href="#FAQs">FAQs</a></li>
                 </ul>
-                <div>
 
-                </div>
+                <!-- handburger menu -->
+                <a href="javascript:void(0)" class="icon" onclick="burger()">
+                    <img src="/images/hamburger.png" alt="" width="30px">
+                </a>
+
 
                 <div class="button">
                     <button onclick="document.getElementById('form').style.display= 'block'" style="width: auto;"
@@ -48,13 +52,13 @@
 
                             <div class="form-control">
                                 <label for="password">Password</label>
-                                <input type="text" id="password" placeholder="Enter your password">
+                                <input type="password" id="password" placeholder="Enter your password">
                                 <small>Error message</small>
                             </div>
 
                             <div class="form-control">
                                 <label for="password2">Repeat password</label>
-                                <input type="text" id="password2" placeholder="Enter your password again">
+                                <input type="password" id="password2" placeholder="Enter your password again">
                                 <small>Error message</small>
                             </div>
 
